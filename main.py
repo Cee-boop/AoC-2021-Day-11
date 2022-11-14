@@ -66,10 +66,10 @@ for step in range(500):
                             if octopi[new_r][new_c] > 9:
                                 indices_checked.add((new_r, new_c))
                                 new_indices = get_adjacent_numbers(new_r, new_c)
-
                                 for pos in new_indices:
                                     flashing.append(pos)
 
+    
     while indices_checked:
         curr_pos = indices_checked.pop()
         r, c = curr_pos[0], curr_pos[1]
