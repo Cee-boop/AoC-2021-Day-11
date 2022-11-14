@@ -39,7 +39,6 @@ def display_grid():
 flashes = 0
 all_flashing = False
 all_flashing_step = 0
-curr_step = 1
 
 for step in range(500):
     if all_flashing:
